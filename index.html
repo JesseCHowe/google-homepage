@@ -2,10 +2,29 @@
 <html>
   <head>
     <title>Odin - Google Homepage</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div id="google-nav-bar"></div>
-    <img id="google-logo" src="git@github.com:JesseCHowe/google-homepage.git" />
-    <div id="search-bar"></div>
+    <div id="google-nav-bar">
+      <ul>
+        <li><a href="">Gmail</a></li>
+        <li><a href="">Images</a></li>
+        <li><a id="google-apps-img"></a></li>
+        <li>
+          <a id="profile-img"
+            ><img
+              src="https://lh3.googleusercontent.com/-XKdmNeWgV3c/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reeSlCMrsl8Iuk24q6w6ZjbIyvcFA.CMID/s32-c/photo.jpg"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <img
+      id="google-logo"
+      src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    />
+    <div id="search-bar">
+      <input type="text" placeholder="Search Google or type URL" />
+      <div id="spch-icon"></div>
+    </div>
   </body>
 </html>
